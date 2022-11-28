@@ -28,7 +28,7 @@ class Employee extends Person { //extends === "is a kind of"
 
 //TEST
 dave = new Employee("Dave", "Doohan", "Janitor", 20.00);
-console.log(dave.getGrossPay(40))
+console.log(dave.getGrossPay(40));
 
 jane = new Employee("Jane", "Goodall", "Researcher", 40.00);
-console.log(jane.getGrossPay(30))
+console.log(jane.getGrossPay(30));
