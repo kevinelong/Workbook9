@@ -1,0 +1,1 @@
+select productname, unitprice, SupplierID from products where SupplierID = 30
