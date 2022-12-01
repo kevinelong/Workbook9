@@ -1,6 +1,10 @@
 var mysql = require('mysql');
 const express = require('express');
 
+/* TO ENABLE TRADITIONAL PASSWORD CONNECTIONS IN RECENT MYSQL DATABASES RUN THIS IN YOUR CLIENT:
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'S!mpl312';
+flush privileges;
+*/
 var con = mysql.createConnection({
     host: "127.0.0.1",
     user: "root",
